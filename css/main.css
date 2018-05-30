@@ -226,10 +226,12 @@ footer{
     margin: 0px;
     padding-top: 40px;
     padding-bottom: 40px;
+    font-family: arvo;
+    color: #979797;
     overflow: hidden;
 }
 footer .blog, footer .links, footer .tweets, footer .contact{
-    width: 22.91%;
+    width: 23.43%;
     float: left;
 }
 footer .margin{
@@ -237,27 +239,44 @@ footer .margin{
 }
 footer h2{
     color: #FFF;
-    font-family: arvo;
     font-size: 15px;
     margin-bottom: 40px;
 }
 footer h3{
-    font-family: arvo;
     color: #76C38F;
     margin: 0px;
     margin-bottom: 15px;
 }
 footer h4{
     color: #666666;
+    margin: 0px;
+    margin-bottom: 10px;
 }
 footer span{
     color: #76C38F;
 }
 footer h5{
-    color: #979797;
+    margin: 0px;
 }
-footer p{
-    color: #979797;
+
+footer .blog button{
+    font-size: 20px;
+    padding-left: 0px;
+    background-color: #303030;
+    border: none;
+    text-transform: capitalize;
+}
+footer .links ul{
+    list-style: none;
+    padding-left: 0px;
+}
+footer .links ul hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #404040;
+    margin-top:  5px;
+    margin-bottom: 7px; 
 }
 /*************************** Framwork ***********************************/
 .hideOverflow{
