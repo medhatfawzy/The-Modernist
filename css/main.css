@@ -269,14 +269,20 @@ footer .blog button{
 footer .links ul{
     list-style: none;
     padding-left: 0px;
+    font-size: 14px;
+    
 }
 footer .links ul hr {
     display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid #404040;
-    margin-top:  5px;
-    margin-bottom: 7px; 
+    margin-top:  10px;
+    margin-bottom: 14px; 
+}
+footer .links ul a{
+    text-decoration: none;
+    color: #76C38F;
 }
 /*************************** Framwork ***********************************/
 .hideOverflow{
