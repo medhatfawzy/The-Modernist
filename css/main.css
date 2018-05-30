@@ -1,0 +1,246 @@
+body{
+    font-family: amiri, serif;
+}
+h1, h2, h3{
+    font-weight: normal;
+}
+p{
+    font-family: arvo,serif;
+    color: #979797;    
+}
+.container{
+    width: 960px;
+    margin: auto;
+}
+#topRule{
+    width: 100%;
+    height: 5px;
+    background-color: #76C38F;
+}
+
+/*--------------------------------------------*/
+
+header{
+    background-color: #300000;
+    color: #FFF;   
+    padding-bottom: 50px;  
+    padding-top: 40px;   
+}
+.headerTop {
+    margin-bottom: 30px;
+}
+.headerTop .headerTitle{
+    float: left;
+    width: fit-content;
+    margin-top: 10px;
+}
+.headerTop .navBar{
+    float: right;
+    width: fit-content;
+}
+.headerTop .headerTitle h2{
+    font-size: 30px;
+}
+.headerTop .headerTitle h2, .headerTop .headerTitle p{
+    margin: 0px;
+    padding: 0px; 
+}
+
+.headerTop .navBar ul{
+    list-style: none;
+}
+.headerTop .navBar ul li{
+    display: inline-block;    
+    text-transform: uppercase;
+    color: #FFF;
+    padding: 10px;    
+}
+.headerTop .navBar ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.headerTop .navBar ul li:hover, .headerTop .navBar .active{
+    background-color: #76C38F;
+    border-radius: 7px;
+}
+.headerContent .leftArrow{
+    width: 5%;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+    padding-right: 15px;
+}
+.headerContent .leftArrow i{
+    text-decoration: none;    
+    color: #76C38F;    
+}
+.headerContent .text{
+    float: left;
+    width:  40%;
+    margin: auto;
+}
+.headerContent .text h1{
+    font-size: 50px;
+    line-height: 0.9;
+    margin-bottom: 0px;
+}
+.headerContent .text p{
+padding-right: 70px;
+}
+.headerContent .text button{
+    margin-top: 30px;
+    background-color: #76C38F;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    text-transform: capitalize;
+    color: #FFF;
+    text-align: center;
+}
+.headerContent .image{
+    float: right;
+    width: 420px;
+    height: 420px;
+    border-radius: 100%;
+    background-color: #6B6B6B;
+    margin: auto;
+}
+.headerContent .image img{
+    width: 380px;
+    height: 380px;
+    border-radius: 100%;
+    padding: 20px;    
+}
+.headerContent .rightArrow{
+    width: 5%;
+    float: right;
+    text-align: center;
+    line-height: 400px;
+    padding-left: 15px;
+    color: #76C38F;
+}
+.headerContent .rightArrow i{
+    text-decoration: none;    
+    color: #76C38F;    
+}
+
+/*-----------------------------------------------*/
+
+section{
+    background-color: #660000;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    overflow: hidden;
+}
+section .service{
+    float: left;
+    width: 21.85%;
+    height: 304px;
+    margin: 15px;
+    text-align: center;
+    background-color: #FFF;
+}
+section .service h1{
+    text-transform: uppercase;
+    margin-top: 0px;
+    color:#333;
+}
+section .service:hover,section .service:hover  h1,section .service:hover  p{
+    background-color: #76C38F;
+    color: #FFF;
+}
+
+section .service img{
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+}
+.clearFix{
+    clear: both;
+}
+
+section .works{
+    overflow: hidden;
+    margin-top: 40px;
+}
+section .worksRule{
+    height: 3px;
+    background-color: #303030;
+    margin-top: 40px;    
+    margin-bottom: 80px;    
+}
+section  .latestWorks{
+    width: fit-content;    
+    margin: auto;
+}
+section .latestWorks h1{
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #303030;
+    border-radius: 8px;
+    line-height: 0.9;
+    padding: 5px;
+    padding-top: 11px;
+}
+
+
+section .works .work{
+    width: 30.62%;
+    float: left;
+    border: 3px solid #FFF;
+    margin-bottom: 30px; 
+    height: 190px; 
+}
+section .works .work:hover{
+    border: 3px solid #76C38F;
+}
+section .works .work:hover h3{
+    display: none;    
+}
+section .works .margin{
+    margin-right: 30px;
+}
+section .works .work img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;   
+}
+section .works .work h3{
+    background-color: #151515;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    z-index: 10;
+    position: absolute;
+    width: 293.9px;
+    margin: auto;
+    margin-top: 168.5px;
+}
+
+/*------------------------------------------------*/
+
+footer{
+    background-color: #303030;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+footer .blog, footer .links, footer .tweets, footer .contact{
+    width: 22.91%;
+    float: left;
+}
+footer .margin{
+    margin-right: 20px;
+}
+footer h2{
+    color: #FFF;
+    font-family: arvo;
+    font-size: 15px;
+}
+/*************************** Framwork ***********************************/
+.hideOverflow{
+    overflow: hidden;
+}
