@@ -96,6 +96,7 @@ padding-right: 70px;
     text-transform: capitalize;
     color: #FFF;
     text-align: center;
+    cursor: pointer;
 }
 .headerContent .image{
     float: right;
@@ -134,11 +135,13 @@ section{
 }
 section .service{
     float: left;
-    width: 21.85%;
-    height: 304px;
-    margin: 15px;
+    width: 20%;
     text-align: center;
     background-color: #FFF;
+    padding: 15px;
+}
+section .sr-margin{
+    margin-right: 20px;    
 }
 section .service h1{
     text-transform: uppercase;
@@ -153,38 +156,37 @@ section .service:hover,section .service:hover  h1,section .service:hover  p{
 section .service img{
     width: 120px;
     height: 120px;
-    margin-top: 15px;
 }
 .clearFix{
     clear: both;
 }
 
-section .works{
-    overflow: hidden;
-    margin-top: 40px;
-}
-section .worksRule{
-    height: 3px;
-    background-color: #303030;
-    margin-top: 40px;    
-    margin-bottom: 80px;    
-}
-section  .latestWorks{
+section  #latestWorks{
     width: fit-content;    
-    margin: auto;
+    width: -moz-fit-content;    
+    width: -o-fit-content;    
+    margin: 50px auto;
+    position: relative;
 }
-section .latestWorks h1{
+section #latestWorks span{
     color: #FFF;
     text-align: center;
     text-transform: uppercase;
     background-color: #303030;
-    border-radius: 8px;
-    line-height: 0.9;
-    padding: 5px;
-    padding-top: 11px;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 0px 10px;
+    padding-bottom: -6px;
 }
-
-
+section #latestWorks + div {
+    border-top: solid 3px #303030;
+    padding-top: 70px;
+    margin-top: -70px;
+}
+section .works{
+    overflow: hidden;
+    margin-top: 40px;
+}
 section .works .work{
     width: 30.62%;
     float: left;
@@ -260,11 +262,12 @@ footer h5{
 }
 
 footer .blog button{
-    font-size: 20px;
+    font-size: 17px;
     padding-left: 0px;
     background-color: #303030;
     border: none;
     text-transform: capitalize;
+    cursor: pointer;
 }
 footer .links ul{
     list-style: none;
@@ -283,6 +286,50 @@ footer .links ul hr {
 footer .links ul a{
     text-decoration: none;
     color: #76C38F;
+}
+footer .contact input[type="text"]{
+    border: none;
+    border-radius: 7px;
+    background-color: #222222;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #898989;
+    width: 100%;    
+}
+footer .contact textarea{
+    border: none;
+    border-radius: 7px;
+    background-color: #222222;
+    color: #898989;
+    padding: 10px;
+    margin-bottom: 10px;    
+    width: 100%;
+}
+footer .contact input[type="submit"]{
+    border: none;
+    border-radius: 7px;
+    background-color: #76C38F;
+    padding: 10px;
+    color: #303030;
+    text-transform: uppercase;
+    cursor: pointer;    
+}
+
+/*-----------------------------------------------*/
+
+#bottomRule{
+    margin: 0px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #3A3A3A;
+}
+.end{
+    margin: 0px;
+    background-color: #2B2B2B;
+}
+.end p{
+    margin: 0px;
+    padding: 20px;
+    padding-left: 0px;
 }
 /*************************** Framwork ***********************************/
 .hideOverflow{
